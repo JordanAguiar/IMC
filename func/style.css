@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color1: #F59B0C;
+    --color2: #CC8F2C;
+    --color3: #756141;
+    --color4: #4B4336;
+    --color5: #33312D;
+}
+
+body{
+    background-color: var(--color1);
+}
+
+main{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 20%;
+    text-align: center;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+h1#titulo{
+    margin-bottom: 25px;
+}
+
+input#peso{
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input#altura{
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+button{
+    padding: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+    background-color: var(--color2);
+    cursor: pointer;
+   
+}
+p{
+    padding-bottom: 10px;
+}
