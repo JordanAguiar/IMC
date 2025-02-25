@@ -3,20 +3,18 @@
     padding: 0px;
 }
 :root{
-    --color1: #F59B0C;
-    --color2: #CC8F2C;
-    --color3: #756141;
-    --color4: #4B4336;
-    --color5: #33312D;
+    --color1: #BA352B;
+    --color2: #15396D;
+    --color3: #160B05;
 }
 
-body{
-    background-color: var(--color1);
+section{
     font-family: 'Roboto', sans-serif;
+    
 }
 
 main{
-    background-color: white;
+    background-color: var(--color2);
     width: 80%;
     margin: auto;
     margin-top: 15%;
@@ -31,12 +29,14 @@ main{
 h1#titulo{
     margin-bottom: 25px;
     padding-top: 10px;
+    color: white;
 }
 
 input#peso{
     width: 50%;
     padding: 5px;
     margin-bottom: 10px;
+    
     
 }
 
@@ -52,10 +52,11 @@ button{
     width: 50%;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: var(--color2);
+    background-color: var(--color1);
     cursor: pointer;
    
 }
 p{
     padding-bottom: 10px;
+    color: white;
 }
